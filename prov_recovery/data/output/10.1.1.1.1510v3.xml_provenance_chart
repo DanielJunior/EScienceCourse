@@ -1,0 +1,10 @@
+// data/xml/1510/10.1.1.1.1510v3.xml provenance chart
+digraph {
+	"data/xml/1510/10.1.1.1.1510v2.xml" [label="data/xml/1510/10.1.1.1.1510v2.xml"]
+	"data/xml/1510/10.1.1.1.1510v3.xml" [label="data/xml/1510/10.1.1.1.1510v3.xml"]
+	"data/xml/1510/10.1.1.1.1510v1.xml" [label="data/xml/1510/10.1.1.1.1510v1.xml"]
+	"data/xml/1575/10.1.1.1.1575v2.xml" [label="data/xml/1575/10.1.1.1.1575v2.xml"]
+		"data/xml/1510/10.1.1.1.1510v2.xml" -> "data/xml/1510/10.1.1.1.1510v3.xml" [constraint=false]
+		"data/xml/1510/10.1.1.1.1510v3.xml" -> "data/xml/1510/10.1.1.1.1510v1.xml" [constraint=false]
+		"data/xml/1510/10.1.1.1.1510v1.xml" -> "data/xml/1575/10.1.1.1.1575v2.xml" [constraint=false]
+}
