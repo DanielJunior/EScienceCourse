@@ -1,6 +1,5 @@
 import sqlite3
 
-
 class ProvRecoveryDatabase():
     def __init__(self):
         pass
